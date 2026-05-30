@@ -6,6 +6,7 @@ resource "azurerm_resource_group" "rgs" {
 
 
 
+
 # hard code value 
 # resource "azurerm_resource_group" "rgs" {
 #   name     = "myrg"
