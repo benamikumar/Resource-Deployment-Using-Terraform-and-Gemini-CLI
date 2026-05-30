@@ -7,11 +7,11 @@ variable "resourcegroupsvalues" {
 
 variable "vnetsvalues" {
   type = map(object({
-    
-    vnetname      = string
-    addressspace   = list(string)
-    location       = string
-    rgname         = string
+
+    vnetname     = string
+    addressspace = list(string)
+    location     = string
+    rgname       = string
   }))
 }
 
