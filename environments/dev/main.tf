@@ -20,6 +20,7 @@ module "rgs" {
 module "vnets" {
   source      = "../../modules/virtual_network"
   vnetdetails = var.vnetsvalues
+  depends_on = [module.rgs]
 }
 
 
